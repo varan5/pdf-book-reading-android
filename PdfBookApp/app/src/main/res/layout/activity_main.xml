@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/motivationalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Motivational"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/javaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="        Java        "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/pythonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="     Python      "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/dsaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="        DSA         "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/oopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="        OOP         "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/mysqlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="      MySQL      "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/reading" />
+
+
+</LinearLayout>
